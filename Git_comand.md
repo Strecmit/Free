@@ -18,14 +18,14 @@ git init
 ```sh
 git add file_name
 ```
-*вместо file_name впишите имя файла для внесения в список отслеживаемых файлов*
+*file_name - имя файла для внесения в список отслеживаемых файлов*
 
 ## <font color = #07fff> Добавление коммита </font>
 
 ```sh
-git commit -m "текстовая_метка"
+git commit -m "commit_name"
 ```
-*вместо слов текстовая_метка введите в кавычках вашу метку*
+*commite_name - в кавычках ваша метка*
 
 ## <font color = #07fff> Просмотр статуса </font>
 
@@ -74,3 +74,10 @@ git branch <branch_name>
 git merge <branch_name>
 ```
 *<branch_name> - имя ветки, которую нужно слить с текущей*
+
+## <font color = #07fff> Удаление ветки </font>
+
+```sh
+git branch -d <branch_name>
+```
+*<branch_name> - имя ветки без кавычек*
